@@ -39,5 +39,5 @@ std::string Person::toString() const {
 }
 
 std::string Person::processPayment(ISendPayment* ISendPayment){
-    ISendPayment->sendPayment();
+    return ISendPayment->sendPayment();
 }
